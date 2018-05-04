@@ -61,15 +61,11 @@ class Jukebox{
 var control= new Jukebox()
 
 
-window.addEventListener("load", function(event) {
+window.addEventListener("load", function(){
   face.innerHTML="Playing Song: "+ songs[currentSong]
    control.go()
   });
-//
-// face.addEventListener("load", function(){
-//   face.onload.control.go()
-//   face.innerHTML="Playing Song: "+ songs[currentSong]
-// })
+
 
 
 play.addEventListener("click", function(){
